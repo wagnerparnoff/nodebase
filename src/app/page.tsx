@@ -1,8 +1,10 @@
+import { Button } from "@/components/ui/button";
+
 const Page = () => {
+
   return (
-    <div className="text-red-500 font-bold">
-      <h1>Welcome to the Home Page</h1>
-      <p>This is the main landing page of the application.</p>
+    <div className="min-h-screen min-w-screen flex items-center justify-center">
+      <Button>Click me</Button>
     </div>
   );
 };
